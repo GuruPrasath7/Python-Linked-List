@@ -6,9 +6,9 @@ class Node:
     
 class LinkedList:
     def __init__(self, head):
-        """ The current pointer only should be moved, not head. """
-        self.head = None
-        self.current = None
+    """ The current pointer only should be moved, not head. """
+            self.head = None
+            self.current = None
 
 linked_list = LinkedList()
 
