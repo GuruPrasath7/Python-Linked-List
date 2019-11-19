@@ -19,7 +19,7 @@ class LinkedList:
 			print(temp.data)
 			temp = temp.next
 	
-    def find_mid_element(self, single, double):
+    	def find_mid_element(self, single, double):
 		if double.next is None:
 			self.mid_data = single.data
 			return 
@@ -52,3 +52,4 @@ print("The inserted linked list is: ")
 linked_list.print_linkedList(linked_list.head)
 
 print("The middle element is", linked_list.find_mid_element(linked_list.head, linked_list.head))
+
