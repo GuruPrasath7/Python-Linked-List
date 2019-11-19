@@ -4,13 +4,13 @@ class Node:
 		self.next = None
 
 class LinkedList:
-    i = 1
+        i = 1
 	data = -1
-    def __init__(self, head):
-        self.head = None
-        self.current = None
+        def __init__(self, head):
+        	self.head = None
+        	self.current = None
 
-    def insert(self, data, linked_list):
+    	def insert(self, data, linked_list):
 		node = Node(data)
 		linked_list.current.next = node
 	
