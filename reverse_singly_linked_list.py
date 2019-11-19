@@ -17,7 +17,8 @@ class LinkedList:
 		while temp:
 			print(temp.data)
 			temp = temp.next
-        def reverse_linked_list(self, head):
+        
+	def reverse_linked_list(self, head):
 		
 		temp = head.next		
 			
