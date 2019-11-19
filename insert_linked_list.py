@@ -5,20 +5,20 @@ class Node:
 		self.next = None
     
 class LinkedList:
-    def __init__(self, head):
+        def __init__(self, head):
         """ The current pointer only should be moved, not head. """
-        self.head = None
-        self.current = None
+                self.head = None
+        	self.current = None
         
-    def insert(self, data, linked_list):
-        node = Node(data)
-        linked_list.current.next = node
+        def insert(self, data, linked_list):
+        	node = Node(data)
+        	linked_list.current.next = node
 	
-    def print_linkedList(self, head):
-        temp = head
-        while temp:
-            print(temp.data)
-            temp = temp.next
+    	def print_linkedList(self, head):
+        	temp = head
+        	while temp:
+            		print(temp.data)
+            		temp = temp.next
             
 linked_list = LinkedList()
 
